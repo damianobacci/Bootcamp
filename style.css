@@ -2,3 +2,7 @@ article {
     background-color: black;
     color: white;
 }
+
+main {
+    display: grid;
+}
