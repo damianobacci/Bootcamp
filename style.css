@@ -1,9 +1,16 @@
 article {
     background-color: black;
     color: white;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+}
+
+article p {
+    margin: 3em;
 }
 
 main {
-    display: grid;
-    grid-column: auto / span 2;
+    display: flex;
+    margin: 1em;
 }
