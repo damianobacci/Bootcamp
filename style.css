@@ -5,4 +5,5 @@ article {
 
 main {
     display: grid;
+    grid-column: auto / span 2;
 }
