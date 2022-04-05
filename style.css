@@ -10,7 +10,18 @@ article p {
     margin: 3em;
 }
 
-main {
+nav {
     display: flex;
-    margin: 1em;
+    justify-content: space-between;
+    margin: 3em;
+}
+
+.graph {
+    display: grid;
+    place-items: center;
+}
+
+.blog {
+    display: flex;
+    margin-top: 2em;
 }
