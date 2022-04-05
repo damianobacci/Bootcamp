@@ -21,7 +21,16 @@ nav {
     place-items: center;
 }
 
-.blog {
+.blogwall {
     display: flex;
     margin-top: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding; 1em;
 }
