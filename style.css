@@ -1,9 +1,17 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 article {
-    background-color: black;
-    color: white;
     padding: 1em;
     margin: 1em;
     text-align: center;
+    border: 1px solid black;
+    flex: 1 1 500px;
 }
 
 article p {
@@ -24,6 +32,8 @@ nav {
 .blogwall {
     display: flex;
     margin-top: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 form {
@@ -32,5 +42,4 @@ form {
     justify-content: center;
     align-items: center;
     margin: 1em;
-    padding; 1em;
 }
