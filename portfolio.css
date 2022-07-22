@@ -1,0 +1,85 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.headline h1 {
+    font-family: 'Work Sans', sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.headline h2 {
+    display: grid;
+    place-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.blogwall {
+    display: flex;
+    margin-top: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 10vw 0 10vw;
+}
+
+article {
+    flex: 1 1 300px;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid black;
+    min-height: 200px;
+    display:table-cell;
+    overflow: hidden;
+    position: relative;
+}
+
+article .shadow {
+  position: absolute;
+  z-index: 1000;
+  top:0;left:0;right:0;bottom:0;
+}
+
+article:hover .shadow {
+    background-color:rgba(10, 16, 17, 0.585);
+}
+
+article .title {
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 1000;
+  top:50%;left:-90%;
+  color:#ffffff;
+  font-weight: 300;
+  font-size: 2em;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+article:hover .title {
+  background-color:black; left:0px;
+}
+
+article .subtitle {
+  position: absolute;
+  z-index: 1000;
+  top:65%;left:-70%;
+  margin-top: 25px;
+  color:#ffffff;
+  font-weight: 300;
+  font-size: 1.5em;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+article:hover .subtitle
+{
+  background-color:black;left:0px;
+}
